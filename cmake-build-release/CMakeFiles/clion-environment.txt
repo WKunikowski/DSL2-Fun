@@ -1,0 +1,4 @@
+ToolSet: 17.0 (local)@E:\Program Files\VisualStudio
+Options: msvc.arch=x86
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/L/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe

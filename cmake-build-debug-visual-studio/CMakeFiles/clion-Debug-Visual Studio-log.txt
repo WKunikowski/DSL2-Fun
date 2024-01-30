@@ -1,0 +1,29 @@
+C:\Users\L\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/L/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_TOOLCHAIN_FILE=C:\Users\L\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake -G Ninja -S C:\Users\L\CLionProjects\untitled -B C:\Users\L\CLionProjects\untitled\cmake-build-debug-visual-studio
+-- The C compiler identification is MSVC 19.38.33130.0
+-- The CXX compiler identification is MSVC 19.38.33130.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Program Files/VisualStudio/VC/Tools/MSVC/14.38.33130/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/Program Files/VisualStudio/VC/Tools/MSVC/14.38.33130/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at C:/Users/L/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package):
+  Could not find a package configuration file provided by "SDL2" with any of
+  the following names:
+
+    SDL2Config.cmake
+    sdl2-config.cmake
+
+  Add the installation prefix of "SDL2" to CMAKE_PREFIX_PATH or set
+  "SDL2_DIR" to a directory containing one of the above files.  If "SDL2"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
